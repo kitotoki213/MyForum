@@ -18,15 +18,15 @@ enum class FragmentTab(
     val labelName: Int
     ) {
 
-    HomeFragmentTab(R.drawable.home, R.drawable.books, {
+    HomeFragmentTab(R.drawable.home, R.drawable.home_fill, {
         HomeFragment.newInstance("", "")
     }, R.string.main_activity_home_tab),
 
-    CommunityFragmentTab(R.drawable.books, R.drawable.home, {
+    CommunityFragmentTab(R.drawable.mobilephone, R.drawable.mobilephone_fill, {
         CommunityFragment.newInstance("", "")
     }, R.string.main_activity_mobile_tab),
 
-    MineFragmentTab(R.drawable.mine, R.drawable.books, {
+    MineFragmentTab(R.drawable.mine, R.drawable.mine_fill, {
         MineFragment.newInstance("", "")
     }, R.string.main_activity_mine_tab)
 }

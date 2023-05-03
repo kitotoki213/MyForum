@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--    fragment_home.xml-->
+    <dimen name="fragment_home_TextView_margin_left">20dp</dimen>
+</resources>
