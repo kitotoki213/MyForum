@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyForum</string>
+
+    <!--    Main Activity   -->
+    <string name="main_activity_home_tab">Home</string>
+    <string name="main_activity_mobile_tab">Community</string>
+    <string name="main_activity_mine_tab">Mine</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_home_fragment">Hello home fragment</string>
+    <string name="hello_community_fragment">Hello community fragment</string>
+    <string name="hello_mine_fragment">Hello mine fragment</string>
+</resources>
