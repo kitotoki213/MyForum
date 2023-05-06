@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvCommentTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="title"
+        android:textSize="16sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivCommentAuthor"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginRight="@dimen/recycler_item_home_fragment_comment_right"
+        android:layout_marginTop="@dimen/recycler_item_home_fragment_comment_top"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvCommentTitle"
+        app:tint="@color/black" />
+
+    <TextView
+        android:id="@+id/tvCommentAuthor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="author"
+        android:layout_marginRight="@dimen/recycler_item_home_fragment_comment_right"
+        app:layout_constraintBottom_toBottomOf="@id/ivCommentAuthor"
+        app:layout_constraintLeft_toRightOf="@id/ivCommentAuthor"
+        app:layout_constraintTop_toTopOf="@id/ivCommentAuthor" />
+
+    <ImageView
+        android:id="@+id/ivCommunity"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginRight="@dimen/recycler_item_home_fragment_comment_right"
+        app:layout_constraintBottom_toBottomOf="@id/tvCommentAuthor"
+        app:layout_constraintLeft_toRightOf="@id/tvCommentAuthor"
+        app:layout_constraintTop_toTopOf="@id/tvCommentAuthor"
+        app:tint="@color/black"></ImageView>
+
+    <TextView
+        android:id="@+id/tvCommunity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Community"
+        android:layout_marginRight="@dimen/recycler_item_home_fragment_comment_right"
+        app:layout_constraintBottom_toBottomOf="@id/ivCommunity"
+        app:layout_constraintLeft_toRightOf="@id/ivCommunity"
+        app:layout_constraintTop_toTopOf="@id/ivCommunity" />
+
+    <ImageView
+        android:id="@+id/ivThumbcount"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginRight="@dimen/recycler_item_home_fragment_comment_right"
+        app:layout_constraintBottom_toBottomOf="@id/tvCommunity"
+        app:layout_constraintLeft_toRightOf="@id/tvCommunity"
+        app:layout_constraintTop_toTopOf="@id/tvCommunity" />
+
+    <TextView
+        android:id="@+id/tvThumcount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="thumb count"
+        android:layout_marginRight="@dimen/recycler_item_home_fragment_comment_right"
+        app:layout_constraintLeft_toRightOf="@id/ivThumbcount"
+        app:layout_constraintTop_toBottomOf="@+id/ivThumbcount"
+        app:layout_constraintTop_toTopOf="@id/ivThumbcount" />
+
+    <TextView
+        android:id="@+id/tvContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="content"
+        android:layout_marginTop="@dimen/recycler_item_home_fragment_comment_top"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ivCommentAuthor" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

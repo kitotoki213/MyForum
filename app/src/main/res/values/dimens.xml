@@ -2,5 +2,10 @@
 <resources>
 
     <!--    fragment_home.xml-->
-    <dimen name="fragment_home_TextView_margin_left">20dp</dimen>
+    <dimen name="fragment_home_TextView_margin_left">15dp</dimen>
+
+    <!--    recycler_item_home_fragment_comment-->
+    <dimen name="recycler_item_home_fragment_comment_top">8dp</dimen>
+    <dimen name="recycler_item_home_fragment_comment_right">8dp</dimen>
+
 </resources>
